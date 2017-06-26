@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="369.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.pyj.chatServer0213.serverIO.MainHandler">
+   <children>
+      <TextArea fx:id="txtDisplay" layoutX="5.0" prefHeight="313.0" prefWidth="593.0" style="-fx-background-color: gold;" />
+      <Button fx:id="btnStartStop" layoutX="182.0" layoutY="332.0" mnemonicParsing="false" onAction="#onConnect" prefHeight="23.0" prefWidth="237.0" text="시작" />
+   </children>
+</AnchorPane>
